@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Fomulários de atletas</title>
+  </head>
+  <body>
+    <header>
+      <h1>Liga de basquete</h1>
+    </header>
+    <main>
+      <form>
+        <fieldset>
+          <legend>Cadastro De Jogadores</legend>
+          <label for="name"><strong>Nome:</strong></label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Digite seu nome "
+            maxlength="50"
+          />
+
+          <label for="idade"><strong>Idade:</strong></label>
+          <input id="idade" type="number" placeholder="Idade " />
+
+          <label for="email"><strong>Email:</strong></label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+          />
+          <label for="position"><strong>Posição:</strong></label>
+          <select name="position">
+            <option>1- Guard</option>
+            <option>2- Shooting Guard</option>
+            <option>3- Small Foward</option>
+            <option>4- Power Foward</option>
+            <option>5- Center</option>
+          </select>
+          <label for="hand"><strong>Mão dominate:</strong></label>
+          <select name="hand" id="hand">
+            <option>Direita</option>
+            <option>Esquerda</option>
+          </select>
+          <label for="tall"><strong>Altura:</strong></label>
+          <input type="text" placeholder="Digite sua altura " />
+
+          <button type="submit">Inscreva-se</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <div>
+        <p>
+          Feito Por <a href="https://github.com/RicardolimaR2L">Ricado Lima</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
